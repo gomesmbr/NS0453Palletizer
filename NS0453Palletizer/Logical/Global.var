@@ -1,0 +1,5 @@
+VAR
+	gRobotControl : RobotControlType;
+	IHMInOutRobot : IHMInOutRobotType;
+	gRoboParametros : MpRoboArm4AxisParType;
+END_VAR

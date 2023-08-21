@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="05/29/2023 08:18:09" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20CP1586" Type="X20CP1586" X="100" Y="100" />
+    <Module Name="8EI022HWD10.xxxx-1" Type="8EI022HWD10.xxxx-1" X="250" Y="249" />
+    <Module Name="8LSA76.DB015D300-3" Type="8LSA76.DB015D300-3" X="250" Y="560" />
+    <Module Name="8LSA76.DB015D300-3a" Type="8LSA76.DB015D300-3" X="250" Y="694" />
+    <Module Name="8EI022HWD10.xxxx-1a" Type="8EI022HWD10.xxxx-1" X="393" Y="249" />
+    <Module Name="8LSA76.DB015D300-3b" Type="8LSA76.DB015D300-3" X="393" Y="560" />
+    <Module Name="8LSA54.DB030S300-3" Type="8LSA54.DB030S300-3" X="393" Y="694" />
+    <Module Name="5MP7140.070N-000" Type="5MP7140.070N-000" X="100" Y="-146" />
+  </Modules>
+  <Links>
+    <Link From="5MP7140.070N-000" To="X20CP1586" FromPort="ETH1" ToPort="IF2" IsRoutedByUser="False">
+      <Point X="132" Y="187" />
+      <Point X="132" Y="187" />
+      <Point X="132" Y="200" />
+      <Point X="132" Y="205" />
+      <Point X="95" Y="205" />
+      <Point X="95" Y="95" />
+      <Point X="179.5" Y="95" />
+      <Point X="179.5" Y="51" />
+      <Point X="179.5" Y="46" />
+      <Point X="179.5" Y="46" />
+    </Link>
+    <Link From="8EI022HWD10.xxxx-1" To="X20CP1586" FromPort="PLK1" ToPort="IF3" IsRoutedByUser="False">
+      <Point X="156" Y="187" />
+      <Point X="156" Y="187" />
+      <Point X="156" Y="200" />
+      <Point X="156" Y="259.5" />
+      <Point X="249.700012" Y="259.5" />
+      <Point X="257.7" Y="259.5" />
+      <Point X="257.7" Y="259.5" />
+    </Link>
+    <Link From="8EI022HWD10.xxxx-1" To="8LSA76.DB015D300-3" FromPort="MT1" ToPort="MT" IsRoutedByUser="False">
+      <Point X="262.6" Y="346.3" />
+      <Point X="262.6" Y="346.3" />
+      <Point X="249.6" Y="346.3" />
+      <Point X="245" Y="346.3" />
+      <Point X="245" Y="525" />
+      <Point X="299.5" Y="525" />
+      <Point X="299.5" Y="559.899963" />
+      <Point X="299.5" Y="566.899963" />
+      <Point X="299.5" Y="566.899963" />
+    </Link>
+    <Link From="8EI022HWD10.xxxx-1" To="8LSA76.DB015D300-3a" FromPort="MT2" ToPort="MT" IsRoutedByUser="False">
+      <Point X="262.6" Y="297.3" />
+      <Point X="262.6" Y="297.3" />
+      <Point X="249.6" Y="297.3" />
+      <Point X="238" Y="297.3" />
+      <Point X="238" Y="655" />
+      <Point X="299.5" Y="655" />
+      <Point X="299.5" Y="693.899963" />
+      <Point X="299.5" Y="700.899963" />
+      <Point X="299.5" Y="700.899963" />
+    </Link>
+    <Link From="8EI022HWD10.xxxx-1a" To="8LSA76.DB015D300-3b" FromPort="MT1" ToPort="MT" IsRoutedByUser="False">
+      <Point X="405.7" Y="346.3" />
+      <Point X="405.7" Y="346.3" />
+      <Point X="392.7" Y="346.3" />
+      <Point X="385" Y="346.3" />
+      <Point X="385" Y="525" />
+      <Point X="442.6" Y="525" />
+      <Point X="442.6" Y="559.899963" />
+      <Point X="442.6" Y="566.899963" />
+      <Point X="442.6" Y="566.899963" />
+    </Link>
+    <Link From="8EI022HWD10.xxxx-1a" To="8LSA54.DB030S300-3" FromPort="MT2" ToPort="MT" IsRoutedByUser="False">
+      <Point X="405.7" Y="297.3" />
+      <Point X="405.7" Y="297.3" />
+      <Point X="392.7" Y="297.3" />
+      <Point X="378" Y="297.3" />
+      <Point X="378" Y="655" />
+      <Point X="442.6" Y="655" />
+      <Point X="442.6" Y="693.899963" />
+      <Point X="442.6" Y="700.899963" />
+      <Point X="442.6" Y="700.899963" />
+    </Link>
+    <Link From="8EI022HWD10.xxxx-1" To="8EI022HWD10.xxxx-1a" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="266.1" Y="259.5" />
+      <Point X="266.1" Y="259.5" />
+      <Point X="266.1" Y="248.5" />
+      <Point X="266.1" Y="235" />
+      <Point X="355" Y="235" />
+      <Point X="355" Y="259.5" />
+      <Point X="392.8" Y="259.5" />
+      <Point X="400.8" Y="259.5" />
+      <Point X="400.8" Y="259.5" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>
